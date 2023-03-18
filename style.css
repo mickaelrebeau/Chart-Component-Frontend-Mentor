@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    padding: 20px;
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.balance .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.balance .text p {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(27, 66%, 92%);
+}
+
+.balance .text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(33, 100%, 98%);
+}
+
+.spending {
+    margin-top: 20px;
+    padding: 20px 30px;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 20px;
+}
+
+.spending h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(25, 47%, 15%);
+}
+
+.charts {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(27, 66%, 92%);
+    padding-top: 50px;
+}
+
+.graph {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    width: 35px;
+    height: 1px;
+    border-radius: 4px;
+    
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(28, 10%, 53%);
+    font-size: 13px;
+    font-weight: 400;
+
+} 
+
+.day {
+    padding: 5px 0 20px 0;
+    font-size: 12px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.bottom .mouth p {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(28, 10%, 53%);
+}
+
+.bottom .mouth h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bottom .last {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.bottom .last h2 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.bottom .last p {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(28, 10%, 53%);
+}

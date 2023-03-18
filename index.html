@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Component Charts</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <div class="content">
+            <div class="balance">
+                <div class="text">
+                    <p>My balance</p>
+                    <h1>$921.48</h1>
+                </div>
+                <svg height="36" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+            </div>
+            <div class="spending">
+                <h2>Spending - Last 7 days</h2>
+                <div class="charts">
+                    <div class="days">
+                        <span class="graph" id="one"></span>
+                        <p class="day">m</p>
+                    </div>
+                    <div class="days">
+                        <span class="graph" id="two"></span>
+                        <p class="day">t</p>
+                    </div>
+                    <div class="days">
+                        <span class="graph" id="three"></span>
+                        <p class="day">w</p>
+                    </div>
+                    <div class="days">
+                        <span class="graph" id="four"></span>
+                        <p class="day">t</p>
+                    </div>
+                    <div class="days">
+                        <span class="graph" id="five"></span>
+                        <p class="day">f</p>
+                    </div>
+                    <div class="days">
+                        <span class="graph" id="six"></span>
+                        <p class="day">s</p>
+                    </div>
+                    <div class="days">
+                        <span class="graph" id="seven"></span>
+                        <p class="day">s</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="mouth">
+                        <p>Total this month</p>
+                        <h2>$478.33</h2>
+                    </div>
+                    <div class="last">
+                        <h2>+2.4% </h2>
+                        <p>from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
